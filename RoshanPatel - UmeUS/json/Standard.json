@@ -1,0 +1,16 @@
+{
+    "plan": [
+        {
+            "bg_color": "rgb(202,101,154)",
+            "bg_color_gradient": "linear-gradient(120deg, rgba(202,101,154,1) 0%, rgba(211,148,143,1) 35%, rgba(218,180,135,1) 100%)",
+            "card_ht": "355px",
+            "card_content_ht": "355px"
+        },
+        {
+            "plan_type": "Standard",
+            "p_p_m": "$100/mo",
+            "plan_content": "Kayaking <br>Zipline <br>wall-climbing <br>ninja course <br>Digital volleyball <br>dodge ball <br>trampoline <br>Youth communication and organization <br>",
+            "price": "100$"
+        }
+    ]
+}

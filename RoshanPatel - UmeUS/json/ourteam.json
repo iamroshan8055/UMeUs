@@ -1,0 +1,84 @@
+{
+    "team": [
+        {
+            "counsellor": [
+                {
+                    "image_url": "images/lisa.jpg",
+                    "name": "Mrs. Lisa",
+                    "star1": "images/star_filled.png",
+                    "star2": "images/star_filled.png",
+                    "star3": "images/star_filled.png",
+                    "star4": "images/star_filled.png",
+                    "star5": "images/star_filled.png",
+                    "descrip": "Mrs. Lisa is our counsellor in this challenging time, and A counsellor is what we all need, especially for kids and youth. Ms Lisa has experience of 10 years of with various organizations."
+                }
+            ],
+            "trainers": [
+                {
+                    "image_url": "images/henry.jpg",
+                    "name": "Mr. Henry",
+                    "star1": "images/star_filled.png",
+                    "star2": "images/star_filled.png",
+                    "star3": "images/star_filled.png",
+                    "star4": "images/star_filled.png",
+                    "star5": "images/star_filled.png",
+                    "descrip": "Mr. Henry is our leading trainer he has experience providing training to kids especially in adventurous sports such as wall climbing."
+                },
+                {
+                    "image_url": "images/jack.jpg",
+                    "name": "Mr. Jack",
+                    "star1": "images/star_filled.png",
+                    "star2": "images/star_filled.png",
+                    "star3": "images/star_filled.png",
+                    "star4": "images/star_filled.png",
+                    "star5": "images/star.png",
+                    "descrip": "Mr. Jack has trained many people at various government-run organizations in survival skills. He has a lot of experience in adventurous activities, including boot camp."
+                },
+                {
+                    "image_url": "images/john.jpg",
+                    "name": "Mr. John",
+                    "star1": "images/star_filled.png",
+                    "star2": "images/star_filled.png",
+                    "star3": "images/star_filled.png",
+                    "star4": "images/star_filled.png",
+                    "star5": "images/star_filled.png",
+                    "descrip": "Mr. John has an outstanding physique and vast experience in water sports. He is specialized in training youths in water sports such as kayaking and physical health."
+                },
+                {
+                    "image_url": "images/shroud.jpg",
+                    "name": "Mr. Shroud",
+                    "star1": "images/star_filled.png",
+                    "star2": "images/star_filled.png",
+                    "star3": "images/star_filled.png",
+                    "star4": "images/star_filled.png",
+                    "star5": "images/star.png",
+                    "descrip": "Mr. Shroud is an expert in video gaming. He has played in many tournaments. He used to train gamers in a private organization before joining us."
+                }
+            ],
+            "psychiatrist": [
+                {
+                    "image_url": "images/olivia.jpg",
+                    "name": "Dr. Olivia",
+                    "star1": "images/star_filled.png",
+                    "star2": "images/star_filled.png",
+                    "star3": "images/star_filled.png",
+                    "star4": "images/star_filled.png",
+                    "star5": "images/star_filled.png",
+                    "descrip": "Dr. Olivia is always present on-site. She had an outstanding career before she joined us to provide mental health sessions and guidance on living a positive life."
+                }
+            ],
+            "dietitian": [
+                {
+                    "image_url": "images/amelia.jpg",
+                    "name": "Dr. Amelia",
+                    "star1": "images/star_filled.png",
+                    "star2": "images/star_filled.png",
+                    "star3": "images/star_filled.png",
+                    "star4": "images/star_filled.png",
+                    "star5": "images/star_filled.png",
+                    "descrip": "Diet is an essential part of our life. We have doctor Emilia as our dietitian who provides a healthy diet to the children, takes a weekly analysis, and suggests accordingly."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,222 @@
+<!-- ===== - ===== CREATED BY ROSHAN PATEL ===== - ===== -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <link rel="icon" href="images/favicon/UmeUS_LOGO_png_new.ico" type="image/ico" sizes="32x32">
+
+    <title title="UmeUS Index Page">UmeUS Index Page</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/form.css">
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <!-- <a href="index.html" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a> -->
+    <header>
+        <img src="images/favicon/UmeUS_LOGO.png" id="head_logo" class="logo_img" alt="UmeUS Logo">
+        <h1 id="ftr_logo">UmeUS</h1>
+    </header>
+
+    <nav>
+        <div class="flex_container"></div>
+        <ul>
+            <li>
+                <div id="flx_nav_1" class="active_nav"><a href="index.html">Home</a></div>
+            </li>
+            <li>
+                <div id="flx_nav_2"><a href="activity.html">Activities</a></div>
+            </li>
+            <li>
+                <div id="flx_nav_3"><a href="programs.html">Programs</a></div>
+            </li>
+            <li>
+                <div id="flx_nav_4"><a href="plans.html">Plans</a></div>
+            </li>
+            <li>
+                <div id="flx_nav_5"><a href="ourteam.html">Our Team</a></div>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade img1">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/carousel_img_1.jpg" style="width: 100%;" id="cimg">
+                <div class="text">Kayak</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/carousel_img_2.jpg" style="width: 100%;" id="cimg">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/carousel_img_4.jpg" style="width: 100%;" id="cimg">
+                <div class="text">Ninja Course</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div><br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <div class="main_cntnt">
+            <div id="camps">
+                <div id="flx_1">
+                    <div class="flx_bx_1">
+                        <a href="images/carousel_img_6.jpg" target="_blank"><img src="images/carousel_img_6.jpg"
+                                class="recipe_imgs" alt="Home-Made-Raviolilatest" title="BootCamp Image" /></a>
+                    </div>
+                    <div class="flx_bx_2_1">
+                        <h2>BOOTCAMP</h2>
+                        <span class="style_underscore"></span>
+                        <p class="cmp_data">Bootcamp offers a unique experience to the kids who are interested
+                            in adventurous sports.<span id="dots_btcmp">...</span><span id="more_btcmp">In boot camp, we
+                                aim to provide the kids with the opportunity
+                                to challenge the human spirit and to experience the sheer joy
+                                and thrill of indulging in adventure, making them accesible
+                                , affordable with emphasis on quality and safety; in Bootcamp
+                                there are many things that will be learned by you kids that helps
+                                in physical fitness. bootcamp offers an unique opportunity in the fitness
+                                world as well as helps in real time environment. Bootcamp is
+                                the right place where children can test their survival and
+                                adventurous abilities.</span></p>
+                        <button onclick="btCmp()" class="view_btn" id="btcmp_vm">View More</button>
+                    </div>
+                </div>
+
+                <div id="flx_1">
+                    <div class="flx_bx_2_2">
+                        <h2>TECH CAMP</h2>
+                        <span class="style_underscore"></span>
+                        <p class="cmp_data">Tech camp, as the name suggests, is for the kids that have
+                            a particular interest in tech<span id="dots_tchcmp">...</span><span id="more_tchcmp">who are
+                                very fond of gaming; tech camp helps children in growing in Tech
+                                environment as we all know that current century belongs to tech industries.
+                                tech camp also helps in current lifestyle that tottaly rely on big Tech.
+                                participating in tech camp is much more than gaming in this camp kids will
+                                learn how to effectively use new generation of gadegts such as laptop
+                                ,computer, mac, machine learing, embbeded systems and much more.
+                                here in UmeUS, we provide different kinds of
+                                video games that include PS5, X-box, PC games and many more
+                                , join us for the breathtaking gaming experience.</span></p>
+                        <button onclick="tchCmp()" class="view_btn" id="tchcmp_vm">View More</button>
+                    </div>
+                    <div class="flx_bx_1">
+                        <a href="images/carousel_img_5.jpg" target="_blank"><img src="images/carousel_img_5.jpg"
+                                class="recipe_imgs" alt="Home-Made-Raviolilatest" title="Tech Camp Image" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cntctus">
+                <h2>Conact <span class="ttl2">Us</span></h2>
+
+                <div class="form">
+                    <!-- <form class="form"> -->
+                    <span class="error" id="sfname"></span>
+                    <div class="form__div">
+                        <input type="text" class="form__input" id="fname" placeholder=" ">
+                        <label for="" class="form__label">First Name</label>
+
+                    </div>
+
+                    <span class="error" id="slname"></span>
+                    <div class="form__div">
+                        <input type="text" class="form__input" id="lname" placeholder=" ">
+                        <label for="" class="form__label">Last Name</label>
+
+                    </div>
+
+                    <span class="error" id="sphn"></span>
+                    <div class="form__div">
+                        <input type="text" class="form__input" id="phn" placeholder=" ">
+                        <label for="" class="form__label">Phone</label>
+
+                    </div>
+
+                    <span class="error" id="seml"></span>
+                    <div class="form__div">
+                        <input type="text" class="form__input" id="eml" placeholder=" ">
+                        <label for="" class="form__label">Email</label>
+
+                    </div>
+
+                    <div class="form__div_cmnt">
+                        <textarea class="form__input" cols="3" rows="30" placeholder=" "></textarea>
+                        <label for="" class="form__label">Comment</label>
+                    </div>
+
+                    <button class="form__button" id="cntct_frm" onclick="validate();" value="Submit">Submit</button>
+                    <!-- </form> -->
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <hr>
+        <div class="ftr">
+            <img src="images/favicon/UmeUS_LOGO.png" id="foot_logo" alt="UmeUS Logo">
+            <h1 id="ftr_logo">UmeUS</h1>
+        </div>
+
+        <hr>
+
+        <div class="ftr">
+            <h2>About <span class="ttl2">Us</span></h2>
+            <p id="abtusdtl">UmeUS is a Youth Gym established in the year 2021. We are a company supported by a
+                consolidated team of specialized dedicated trainers and committed management. It is the right place
+                where you want your children to be as It focuses on kids' physical and Mental development and offers a
+                unique experience that can make your children more skilful and creative.</p>
+
+            <a href="http://www.facebook.com" target="_blank"><img src="images/icons/facebook_3.png" class="social_icon"
+                    id="fb_icon" alt="Facebook Icon"></a>
+            <a href="http://www.instagram.com" target="_blank"><img src="images/icons/insta_3.png" class="social_icon"
+                    id="ig_icon" alt="Instagram Icon"></a>
+            <a href="http://www.pinterest.com" target="_blank"><img src="images/icons/pinterest_3.png"
+                    class="social_icon" id="pin_icon" alt="Pinterest Icon"></a>
+            <a href="http://www.youtube.com" target="_blank"><img src="images/icons/youtube_3.png" class="social_icon"
+                    id="yt_icon" alt="YouTube Icon"></a>
+        </div>
+
+        <hr>
+
+        <div class="ftr">
+            <p id="cpyr8">Copyright © 2021 UmeUS. All Right Reserved. Terms & Conditions | Privacy Policy</p>
+        </div>
+
+
+    </footer>
+
+</body>
+
+<script src="js/index.js"></script>
+
+</html>

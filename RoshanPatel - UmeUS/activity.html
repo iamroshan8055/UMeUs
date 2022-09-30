@@ -1,0 +1,245 @@
+<!-- ===== - ===== CREATED BY TIRTH PATEL ===== - ===== -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <link rel="icon" href="images/favicon/UmeUS_LOGO_png_new.ico" type="image/ico" sizes="32x32">
+    <title>UmeUS Activities Page</title>
+    <link rel="stylesheet" href="css/activity.css">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <header>
+        <img src="images/favicon/UmeUS_LOGO.png" id="head_logo" class="logo_img" alt="UmeUS Logo">
+        <h1 id="ftr_logo">UmeUS</h1>
+    </header>
+
+    <nav>
+        <div class="flex_container"></div>
+        <ul>
+            <li>
+                <div id="flx_nav_1"><a href="index.html">Home</a></div>
+            </li>
+            <li>
+                <div id="flx_nav_2" class="active_nav"><a href="activity.html">Activities</a></div>
+            </li>
+            <li>
+                <div id="flx_nav_3"><a href="programs.html">Programs</a></div>
+            </li>
+            <li>
+                <div id="flx_nav_4"><a href="plans.html">Plans</a></div>
+            </li>
+            <li>
+                <div id="flx_nav_5"><a href="ourteam.html">Our Team</a></div>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+    <main>
+        <hr>
+        <h1 id="activity"> Activities </h1>
+        <hr>
+
+
+
+        <div id="imgcontent">
+            <img src="images/iStock_3724980_MEDIUM.jpg" alt="Kayaking Photo" width="700px" id="imgpd">
+
+            <h3> Kayaking</h3>
+            <hr class="line">
+
+            <p class="des parag">
+                Kayaking is a fun activity that involves moving through water in a small water vessel with the aid of a
+                double-bladed paddle.
+                It allows the boat driver to maneuver through waterways by sitting face-forward and propelling ahead
+                with alternating side-to-side paddle strokes.
+                The paddler sits in the cockpit with the legs extended beneath a closed deck, leaving the upper body
+                free and exposed.
+                Kayaking is the perfect way for people of any age or ability to engage with water sport.
+                Usually taking place in safe, protecteed areas of water, there are many locations in UmeUS
+                where you can go for a relaxing paddle. No experience is needed to engage in kayaking,
+                and it is a perfect activity for childen.
+            </p>
+
+
+            <img src="images/fw1.jpg" alt="sample Photo" width="700px" id="imgpd">
+
+            <h3>Wall Climbing</h3>
+            <hr id="line2">
+            <p class="parag">
+                Wall climbing is an artificially constructed wall with grips for hands and feet,
+                usually used fro indoor climbing. Some are brick or wooden constructions, but the material
+                most often used on most modern wall is a thick multiplex board with holes drilled into it.
+                We provide wall climbing experience with the safety guidelines that help children become
+                more mentally and phycially fit.
+                Indoor rock climbing is one of the most innovative physical activities today. It not only builds
+                physical skills, but also helps to develop social-emotional and academic skills.
+            </p>
+
+
+
+            <img src="images/roatankidszipline.jpg" alt="sample Photo" width="700px" id="imgpd">
+
+
+            <h3>Zip Line</h3>
+            <hr class="line">
+            <p class="parag">
+                A zip-line, is a pulley suspended on a cable, usually made of stainless steel, mounted on a slope.
+                It is designed to enable cargo or a person propelled by gravity to travel from
+                the top to the bottom of the inclined cable by holding on to, or being attached
+                to, the freely moving pulley. It has been described as essentially a Tyrolean
+                traverse that engages gravity to assist its speed of movement. Its use is not
+                confined to adventure sport, recreation, or tourism, although modern-day usage tends to favor those
+                meanings.
+                Zipline for kids is an excellent sports activity in which the kids goes
+                from one side of the wire firmly fixed on the poles or trees to the other
+                using trolleys mounted on the wire. The name, Zipline, came from the 'zip'
+                sounds as the kids travel from one side to the other.
+            </p>
+        </div>
+
+
+
+        <fieldset id="fldst_form">
+            <legend>Activity form</legend>
+            <!-- <form action="#" method="GET"> -->
+            <div id="wrapper">
+
+                <div id="tbl_cntnt">
+
+                    <div class="sub_tbl_cntnt1">
+                        <div class="flx1"></div>
+                        <div class="flx2"><span id="fnerror" class="error"></span></div>
+                    </div>
+                    <div class="sub_tbl_cntnt2">
+                        <div class="flx3"><label for="firstName"> First Name:</label></div>
+                        <div class="flx4"><input type="text" class="inpt" id="firstName"></div>
+                    </div>
+
+                    <div class="sub_tbl_cntnt1">
+                        <div class="flx1"></div>
+                        <div class="flx2"><span id="lnerror" class="error"></span></div>
+                    </div>
+                    <div class="sub_tbl_cntnt2">
+                        <div class="flx3"><label for="lastName">Last Name:</label></div>
+                        <div class="flx4"><input type="text" class="inpt" id="lastName"></div>
+                    </div>
+
+                    <div class="sub_tbl_cntnt1">
+                        <div class="flx1"></div>
+                        <div class="flx2"><span id="mtype" class="error"></span></div>
+                    </div>
+                    <div class="sub_tbl_cntnt2">
+                        <div class="flx3"><label for="membership">Membership</label></div>
+                        <div class="flx4"><select id="ddlmtype" class="inpt2" required>
+                                <option selected disabled>--Select Membership Type--</option>
+                                <option value="Basic">Basic</option>
+                                <option value="Standard">Standard</option>
+                                <option value="Premium">Premium</option>
+                            </select></div>
+                    </div>
+
+                    <div class="sub_tbl_cntnt1">
+                        <div class="flx1"></div>
+                        <div class="flx2"><span id="mNumber" class="error"></span></div>
+                    </div>
+                    <div class="sub_tbl_cntnt2">
+                        <div class="flx3"><label for="membershipNumber"> Membership Number</label></div>
+                        <div class="flx4"><input type="text" class="inpt" id="membershipNumber"></div>
+                    </div>
+
+                    <div class="sub_tbl_cntnt1">
+                        <div class="flx1"></div>
+                        <div class="flx2"><span id="activities" class="error"></span></div>
+                    </div>
+                    <div class="sub_tbl_cntnt2">
+                        <div class="flx3"><label for="activity">Activity</label></div>
+                        <div class="flx4"><select id="ddlActivity" class="inpt2" required>
+                                <option selected disabled>--Select Activity--</option>
+                                <option value="Kayaking">Kayaking</option>
+                                <option value="Zip line">Zip line</option>
+                                <option value="Wall Climbing">Wall Climbing</option>
+                                <option value="Ninja Course">Ninja Course</option>
+                                <option value="Dodge Ball">Dodge Ball</option>
+                                <option value="Trampoline">Trampoline</option>
+                                <option value="Digital Vollyball">Digital Vollyball</option>
+                                <option value="Scolizing">Scolizing</option>
+                                <option value="Routine Exercise">Routine Exercise</option>
+                                <option value="Youth Communication Events"> Youth Communication Events</option>
+                            </select></div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <!-- <td colspan="2" id="btnmargin"> -->
+                <input type="submit" id="btnSubmit" onclick="validation();">
+                <!--   -->
+                <!--  -->
+
+            </div>
+            <!-- </form> -->
+        </fieldset>
+        <div id="fldst_form">
+            <fieldset id="details">
+                <legend> Your Details</legend>
+                <div id="Display_dtls"></div>
+                <span id="demo"></span>
+            </fieldset>
+        </div>
+
+
+    </main>
+
+
+
+    <footer>
+
+        <hr>
+        <div class="ftr">
+            <img src="images/favicon/UmeUS_LOGO.png" id="foot_logo" alt="UmeUS Logo">
+            <h1 id="ftr_logo">UmeUS</h1>
+        </div>
+
+        <div id="lft_abtus">
+
+            <hr>
+
+            <div class="ftr">
+                <h2>About <span class="ttl2">Us</span></h2>
+                <p id="abtusdtl">UmeUS is a Youth Gym established in the year 2021. We are a company supported by a
+                    consolidated team of specialized dedicated trainers and committed management. It is the right place
+                    where you want your children to be as It focuses on kids' physical and Mental development and offers
+                    a
+                    unique experience that can make your children more skilful and creative.</p>
+
+                <a href="images/icons/facebook_3.png" target="_blank"><img src="images/icons/facebook_3.png"
+                        class="social_icon" id="fb_icon" alt="Facebook Icon"></a>
+                <a href="images/icons/insta_3.png" target="_blank"><img src="images/icons/insta_3.png"
+                        class="social_icon" id="ig_icon" alt="Instagram Icon"></a>
+                <a href="images/icons/pinterest_3.png" target="_blank"><img src="images/icons/pinterest_3.png"
+                        class="social_icon" id="pin_icon" alt="Pinterest Icon"></a>
+                <a href="images/icons/youtube_3.png" target="_blank"><img src="images/icons/youtube_3.png"
+                        class="social_icon" id="yt_icon" alt="YouTube Icon"></a>
+            </div>
+
+            <hr>
+
+            <div class="ftr">
+                <p id="cpyr8">Copyright © 2021 UmeUS. All Right Reserved. Terms & Conditions | Privacy Policy</p>
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+<script src="./js/activity.js"> </script>
+
+</html>
